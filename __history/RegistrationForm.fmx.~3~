@@ -1,0 +1,71 @@
+object MyRegistrationForm: TMyRegistrationForm
+  Left = 0
+  Top = 0
+  Caption = 'Registration'
+  ClientHeight = 278
+  ClientWidth = 496
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object NameEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 7
+    Position.X = 167.000000000000000000
+    Position.Y = 56.000000000000000000
+    Size.Width = 153.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Label1: TLabel
+    Position.X = 64.000000000000000000
+    Position.Y = 56.000000000000000000
+    Text = 'Name'
+    TabOrder = 8
+  end
+  object AgeEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 5
+    Position.X = 167.000000000000000000
+    Position.Y = 88.000000000000000000
+    Size.Width = 153.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Label2: TLabel
+    Position.X = 64.000000000000000000
+    Position.Y = 88.000000000000000000
+    Text = 'Age'
+    TabOrder = 6
+  end
+  object UsernameEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 3
+    Position.X = 167.000000000000000000
+    Position.Y = 120.000000000000000000
+    Size.Width = 153.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Label3: TLabel
+    Position.X = 64.000000000000000000
+    Position.Y = 120.000000000000000000
+    Text = 'Username'
+    TabOrder = 4
+  end
+  object PasswordEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    Position.X = 167.000000000000000000
+    Position.Y = 152.000000000000000000
+    Size.Width = 153.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Label4: TLabel
+    Position.X = 64.000000000000000000
+    Position.Y = 152.000000000000000000
+    Text = 'Password'
+    TabOrder = 2
+  end
+end
