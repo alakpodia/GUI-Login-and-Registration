@@ -12,9 +12,9 @@ object MyRegistrationForm: TMyRegistrationForm
     Touch.InteractiveGestures = [LongTap, DoubleTap]
     TabOrder = 6
     Position.X = 167.000000000000000000
-    Position.Y = 48.000000000000000000
+    Position.Y = 56.000000000000000000
     Size.Width = 194.000000000000000000
-    Size.Height = 25.000000000000000000
+    Size.Height = 17.000000000000000000
     Size.PlatformDefault = False
   end
   object Label1: TLabel
@@ -27,9 +27,9 @@ object MyRegistrationForm: TMyRegistrationForm
     Touch.InteractiveGestures = [LongTap, DoubleTap]
     TabOrder = 4
     Position.X = 167.000000000000000000
-    Position.Y = 81.000000000000000000
+    Position.Y = 88.000000000000000000
     Size.Width = 194.000000000000000000
-    Size.Height = 24.000000000000000000
+    Size.Height = 17.000000000000000000
     Size.PlatformDefault = False
   end
   object Label2: TLabel
@@ -42,9 +42,9 @@ object MyRegistrationForm: TMyRegistrationForm
     Touch.InteractiveGestures = [LongTap, DoubleTap]
     TabOrder = 2
     Position.X = 167.000000000000000000
-    Position.Y = 113.000000000000000000
+    Position.Y = 120.000000000000000000
     Size.Width = 194.000000000000000000
-    Size.Height = 24.000000000000000000
+    Size.Height = 17.000000000000000000
     Size.PlatformDefault = False
   end
   object Label3: TLabel
@@ -57,9 +57,9 @@ object MyRegistrationForm: TMyRegistrationForm
     Touch.InteractiveGestures = [LongTap, DoubleTap]
     TabOrder = 0
     Position.X = 167.000000000000000000
-    Position.Y = 145.000000000000000000
+    Position.Y = 152.000000000000000000
     Size.Width = 194.000000000000000000
-    Size.Height = 24.000000000000000000
+    Size.Height = 17.000000000000000000
     Size.PlatformDefault = False
   end
   object Label4: TLabel
@@ -73,6 +73,5 @@ object MyRegistrationForm: TMyRegistrationForm
     Position.Y = 200.000000000000000000
     TabOrder = 8
     Text = 'Save'
-    OnClick = saveButtonClick
   end
 end

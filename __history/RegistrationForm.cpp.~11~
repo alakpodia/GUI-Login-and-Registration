@@ -25,7 +25,7 @@ void __fastcall TMyRegistrationForm::saveButtonClick(TObject *Sender)
 		AnsiString username = usernameEdit->Text;
 		AnsiString password = passwordEdit->Text;
 
-		myFile<<name<<","<<age<<","<<username<<","<<password<<"\n";
+		myFile<<name<<", "<<age<<", "<<username<<", "<<password<<"\n";
 		myFile.close();
         this->Close();
 	}

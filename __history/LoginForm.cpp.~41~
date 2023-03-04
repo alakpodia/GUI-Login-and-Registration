@@ -45,8 +45,8 @@ void __fastcall TMyLoginForm::loginButtonClick(TObject *Sender)
 		//bool check = false;
 
 		while(
-			getline(myFile, line)
-            //,bool check
+			getline(myFile, line),
+            //bool check
 			){
 			std::vector<std::string> parsedLine = parseCommaDelimitedString(line);
 			const char* username = parsedLine.at(2).c_str();
@@ -61,7 +61,7 @@ void __fastcall TMyLoginForm::loginButtonClick(TObject *Sender)
 				//const char* passwordString = editPassword.c_str();
 
 				if(std::strcmp(password, convertToCharPtr(passwordEdit->Text))==0){
-				   messageLabel->Text = "SUCCESS"; break;
+				   messageLabel->Text = "SUCCESS";
 				   //bool check = true;
 				}
 				else

@@ -1,7 +1,7 @@
 //---------------------------------------------------------------------------
 
-#ifndef RegistrationFormH
-#define RegistrationFormH
+#ifndef LoginFormH
+#define LoginFormH
 //---------------------------------------------------------------------------
 #include <System.Classes.hpp>
 #include <FMX.Controls.hpp>
@@ -11,24 +11,19 @@
 #include <FMX.StdCtrls.hpp>
 #include <FMX.Types.hpp>
 //---------------------------------------------------------------------------
-class TMyRegistrationForm : public TForm
+class TMyLoginForm : public TForm
 {
 __published:	// IDE-managed Components
-	TEdit *nameEdit;
-	TLabel *Label1;
-	TEdit *ageEdit;
-	TLabel *Label2;
 	TEdit *usernameEdit;
-	TLabel *Label3;
+	TLabel *Label1;
 	TEdit *passwordEdit;
-	TLabel *Label4;
-	TButton *saveButton;
-	void __fastcall saveButtonClick(TObject *Sender);
+	TLabel *Label2;
+	TButton *loginButton;
 private:	// User declarations
 public:		// User declarations
-	__fastcall TMyRegistrationForm(TComponent* Owner);
+	__fastcall TMyLoginForm(TComponent* Owner);
 };
 //---------------------------------------------------------------------------
-extern PACKAGE TMyRegistrationForm *MyRegistrationForm;
+extern PACKAGE TMyLoginForm *MyLoginForm;
 //---------------------------------------------------------------------------
 #endif

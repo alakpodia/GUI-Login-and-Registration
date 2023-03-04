@@ -43,11 +43,5 @@ object MyLoginForm: TMyLoginForm
     Position.Y = 128.000000000000000000
     TabOrder = 4
     Text = 'Login'
-    OnClick = loginButtonClick
-  end
-  object messageLabel: TLabel
-    Position.X = 88.000000000000000000
-    Position.Y = 133.000000000000000000
-    TabOrder = 6
   end
 end

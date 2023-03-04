@@ -48,6 +48,7 @@ object MyLoginForm: TMyLoginForm
   object messageLabel: TLabel
     Position.X = 88.000000000000000000
     Position.Y = 133.000000000000000000
+    Text = 'messageLabel'
     TabOrder = 6
   end
 end
