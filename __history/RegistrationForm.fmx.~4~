@@ -3,7 +3,7 @@ object MyRegistrationForm: TMyRegistrationForm
   Top = 0
   Caption = 'Registration'
   ClientHeight = 278
-  ClientWidth = 423
+  ClientWidth = 496
   FormFactor.Width = 320
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
@@ -13,7 +13,7 @@ object MyRegistrationForm: TMyRegistrationForm
     TabOrder = 6
     Position.X = 167.000000000000000000
     Position.Y = 56.000000000000000000
-    Size.Width = 194.000000000000000000
+    Size.Width = 153.000000000000000000
     Size.Height = 17.000000000000000000
     Size.PlatformDefault = False
   end
@@ -28,7 +28,7 @@ object MyRegistrationForm: TMyRegistrationForm
     TabOrder = 4
     Position.X = 167.000000000000000000
     Position.Y = 88.000000000000000000
-    Size.Width = 194.000000000000000000
+    Size.Width = 153.000000000000000000
     Size.Height = 17.000000000000000000
     Size.PlatformDefault = False
   end
@@ -43,7 +43,7 @@ object MyRegistrationForm: TMyRegistrationForm
     TabOrder = 2
     Position.X = 167.000000000000000000
     Position.Y = 120.000000000000000000
-    Size.Width = 194.000000000000000000
+    Size.Width = 153.000000000000000000
     Size.Height = 17.000000000000000000
     Size.PlatformDefault = False
   end
@@ -58,7 +58,7 @@ object MyRegistrationForm: TMyRegistrationForm
     TabOrder = 0
     Position.X = 167.000000000000000000
     Position.Y = 152.000000000000000000
-    Size.Width = 194.000000000000000000
+    Size.Width = 153.000000000000000000
     Size.Height = 17.000000000000000000
     Size.PlatformDefault = False
   end
@@ -71,7 +71,7 @@ object MyRegistrationForm: TMyRegistrationForm
   object saveButton: TButton
     Position.X = 167.000000000000000000
     Position.Y = 200.000000000000000000
-    TabOrder = 8
+    TabOrder = 9
     Text = 'Save'
   end
 end

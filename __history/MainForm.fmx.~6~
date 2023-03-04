@@ -26,6 +26,5 @@ object MyMainForm: TMyMainForm
     Size.PlatformDefault = False
     TabOrder = 1
     Text = 'Registration'
-    OnClick = registrationNavigationButtonClick
   end
 end

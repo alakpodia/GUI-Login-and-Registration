@@ -14,9 +14,8 @@ object MyMainForm: TMyMainForm
     Size.Width = 137.000000000000000000
     Size.Height = 22.000000000000000000
     Size.PlatformDefault = False
-    TabOrder = 0
+    TabOrder = 1
     Text = 'Login'
-    OnClick = loginNavigationButtonClick
   end
   object registrationNavigationButton: TButton
     Position.X = 272.000000000000000000
@@ -24,8 +23,7 @@ object MyMainForm: TMyMainForm
     Size.Width = 137.000000000000000000
     Size.Height = 22.000000000000000000
     Size.PlatformDefault = False
-    TabOrder = 1
+    TabOrder = 2
     Text = 'Registration'
-    OnClick = registrationNavigationButtonClick
   end
 end

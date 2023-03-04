@@ -2,18 +2,18 @@ object MyLoginForm: TMyLoginForm
   Left = 0
   Top = 0
   Caption = 'Login'
-  ClientHeight = 176
-  ClientWidth = 440
+  ClientHeight = 240
+  ClientWidth = 432
   FormFactor.Width = 320
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
   DesignerMasterStyle = 0
   object usernameEdit: TEdit
     Touch.InteractiveGestures = [LongTap, DoubleTap]
-    TabOrder = 2
+    TabOrder = 3
     Position.X = 216.000000000000000000
     Position.Y = 53.000000000000000000
-    Size.Width = 177.000000000000000000
+    Size.Width = 137.000000000000000000
     Size.Height = 17.000000000000000000
     Size.PlatformDefault = False
   end
@@ -21,14 +21,14 @@ object MyLoginForm: TMyLoginForm
     Position.X = 88.000000000000000000
     Position.Y = 53.000000000000000000
     Text = 'Username'
-    TabOrder = 3
+    TabOrder = 4
   end
   object passwordEdit: TEdit
     Touch.InteractiveGestures = [LongTap, DoubleTap]
-    TabOrder = 0
+    TabOrder = 1
     Position.X = 216.000000000000000000
     Position.Y = 85.000000000000000000
-    Size.Width = 177.000000000000000000
+    Size.Width = 137.000000000000000000
     Size.Height = 17.000000000000000000
     Size.PlatformDefault = False
   end
@@ -36,12 +36,12 @@ object MyLoginForm: TMyLoginForm
     Position.X = 88.000000000000000000
     Position.Y = 85.000000000000000000
     Text = 'Password'
-    TabOrder = 1
+    TabOrder = 2
   end
   object loginButton: TButton
     Position.X = 216.000000000000000000
     Position.Y = 128.000000000000000000
-    TabOrder = 4
+    TabOrder = 5
     Text = 'Login'
   end
 end
